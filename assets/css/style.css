@@ -544,3 +544,131 @@ a {
     color: #fff;
     background-color: var(--primary-color);
 }
+
+.features-2 {
+    margin-top: 70px;
+}
+
+.features-2 .body {
+    flex-direction: row-reverse;
+}
+
+.features-2 .body .feature-content {
+    width: 48.7%;
+}
+
+.features-2 .body .images img {
+    width: 470px;
+    height: 440px;
+}
+
+/* Blog */
+
+.blog {
+    margin-top: 135px;
+    padding: 96px 0;
+    background-color: #FFFCF4;
+}
+
+.blog .head-blog {
+    text-align: center;
+}
+
+.blog .head-blog .desc {
+    margin: 16px auto 0;
+    color: #696262;
+    width: 448px;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}
+
+.blog .blog-content .blog-list {
+    margin-top: 55px;
+    display: flex;
+    gap: 0 30px;
+}
+
+.blog-content .blog-item {
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    width: calc(33.33% - 20px);
+}
+
+.blog-content .blog-item:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.blog-content .blog-item img {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+}
+
+.blog-content .item-content {
+    padding: 20px 20px 28px;
+}
+
+.blog-content .item-content .year {
+    display: flex;
+    align-items: center;
+}
+
+.blog-content .item-content .dot-year {
+    background-color: var(--primary-color);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.blog-content .item-content .time {
+    color: #5F5B53;
+    font-size: 1.4rem;
+}
+
+.blog-content .item-content .separate {
+    margin-top: 12px;
+    width: 160px;
+    height: 1px;
+    border-radius: 0.5px;
+    background: #E2DFDA;
+}
+
+.blog-content .item-content .title {
+    margin-top: 12px;
+    color: #171100;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+
+.blog-content .item-content .cta-btn {
+    margin-top: 12px;
+    border-color: transparent;
+    font-size: 1.4rem;
+}
+
+.blog-content .item-content .cta-btn:hover {
+    background-color: var(--primary-color);
+}
+
+.blog-content .dots {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    gap: 0 6px;
+}
+
+.blog-content .dots .dot {
+    width: 6px;
+    height: 6px;    
+    border-radius: 6px;
+    background-color: #5F5B53;
+}
+
+.blog-content .dots .dot.active {
+    background-color: var(--primary-color);
+}
